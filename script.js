@@ -2,6 +2,7 @@ const apiUrl = 'http://localhost:3000/tasks';
 
 document.addEventListener('DOMContentLoaded', fetchTasks);
 
+
 async function fetchTasks() {
     try {
         const response = await fetch(apiUrl);
